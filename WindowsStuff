@@ -8,3 +8,5 @@ Get-AppxPackage -name -allusers “Microsoft.Office.Desktop” | Remove-AppxPack
 Thunderbird:
 winget install -e --id Mozilla.Thunderbird --scope machine
 winget upgrade -all
+
+net accounts /MINPWLEN:8
