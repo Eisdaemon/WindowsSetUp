@@ -9,3 +9,7 @@ net accounts /MINPWLEN:8
 //Create Server Shortcut:
 Create Shortcut on Desktop pointing to \\192.168.2.2\
 Execute cd ..\..\users\operator\Desktop; copy Server.lnk ..\..\Public\Desktop
+
+//Cloud PBX
+msiexec /i c:\work\Webex.msi /quiet AUTOSTART_WITH_WINDOWS=true ALLUSERS=1
+ 
